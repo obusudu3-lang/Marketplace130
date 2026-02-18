@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
+# Property Marketplace
 
-## Project info
+Welcome to the Property Marketplace platform. This documentation outlines the steps required to set up and run the project.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Table of Contents
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
-## How can I edit this code?
+## Introduction
+The Property Marketplace is designed to facilitate the buying, selling, and renting of properties. This platform aims to connect buyers and sellers in a user-friendly manner.
 
-There are several ways of editing your application.
+## Prerequisites
+Before you get started, ensure you have the following installed:
+- Node.js (version X.X.X or later)
+- npm (version X.X.X or later)
+- A MongoDB instance (or any other database you prefer)
 
-**Use Lovable**
+## Installation
+Follow these steps to set up the environment:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/obusudu3-lang/Marketplace130.git
+   cd Marketplace130
+   ```
 
-Changes made via Lovable will be committed automatically to this repo.
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-**Use your preferred IDE**
+3. Set up your database connection in the `.env` file. An example .env file:
+   ```plaintext
+   DB_HOST=your_database_host
+   DB_PORT=your_database_port
+   DB_NAME=your_database_name
+   ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+4. Start the application:
+   ```bash
+   npm start
+   ```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Usage
+Once you have the application running, you can visit `http://localhost:3000` to access the platform. From here, you can:
+- Browse available properties
+- Add a new property listing
+- Search for properties based on various filters
 
-Follow these steps:
+## Contributing
+Contributions are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+For further information, please consult the project's [Issues](https://github.com/obusudu3-lang/Marketplace130/issues) for any queries or additional instructions.
